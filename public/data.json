@@ -1,0 +1,349 @@
+{
+    "status": "0000",
+    "total_pages": 1,
+    "current_page": 1,
+    "cocktails": [
+        {
+            "cocktail_id": 1,
+            "cocktail_name": "マティーニ",
+            "cocktail_name_english": "Martini",
+            "base_name": "ジン",
+            "technique_name": "ステア",
+            "taste_name": "辛口",
+            "style_name": "ショート",
+            "alcohol": 42,
+            "top_name": "食前",
+            "glass_name": "カクテルグラス",
+            "type_name": "アルコール",
+            "cocktail_digest": "カクテルの王様",
+            "cocktail_desc": "ジンの辛味とドライベルモットの香りが絶妙なカクテルの王様。時代が進むにつれ辛口へと変化している。使用するお酒の種類や配合が無数にあるため、バーによって味が異なると言われている。カクテル好きなら1度は味わっておきたい一杯。",
+            "recipe_desc": "ジンとドライベルモットをミキシンググラスでステアし、グラスに注ぐ。オリーブをカクテルピックに刺して沈め、仕上げにレモンピールをふる。",
+            "recipes": [
+                {
+                    "ingredient_id": 1,
+                    "ingredient_name": "ジン",
+                    "amount": "50",
+                    "unit": "ml"
+                },
+                {
+                    "ingredient_id": 15,
+                    "ingredient_name": "ドライ・ベルモット",
+                    "amount": "10",
+                    "unit": "ml"
+                },
+                {
+                    "ingredient_id": 64,
+                    "ingredient_name": "オリーブ",
+                    "amount": "1",
+                    "unit": "個"
+                },
+                {
+                    "ingredient_id": 65,
+                    "ingredient_name": "レモン・ピール",
+                    "amount": "",
+                    "unit": "適量"
+                }
+            ]
+        },
+        {
+            "cocktail_id": 8,
+            "cocktail_name": "ウォッカ・マティーニ",
+            "cocktail_name_english": "Vodka Martini",
+            "base_name": "ウォッカ",
+            "technique_name": "ステア",
+            "taste_name": "辛口",
+            "style_name": "ショート",
+            "alcohol": 36,
+            "top_name": "食前",
+            "glass_name": "カクテルグラス",
+            "type_name": "アルコール",
+            "cocktail_digest": "ベースをウォッカに変えスムースでソフトな飲み口のマティーニ",
+            "cocktail_desc": "使用する材料をドライ・ジンをウォッカに変えたマティーニ。ウォッカを使うことでジン特有のクセがなくなり、ややソフトな味わいになる。",
+            "recipe_desc": "ウォッカとドライベルモットをミキシンググラスでステアし、グラスに注ぐ。オリーブをカクテルピックに刺して沈め、仕上げにレモンピールをふる。",
+            "recipes": [
+                {
+                    "ingredient_id": 2,
+                    "ingredient_name": "ウォッカ",
+                    "amount": "45",
+                    "unit": "ml"
+                },
+                {
+                    "ingredient_id": 15,
+                    "ingredient_name": "ドライ・ベルモット",
+                    "amount": "15",
+                    "unit": "ml"
+                },
+                {
+                    "ingredient_id": 64,
+                    "ingredient_name": "オリーブ",
+                    "amount": "1",
+                    "unit": "個"
+                },
+                {
+                    "ingredient_id": 65,
+                    "ingredient_name": "レモン・ピール",
+                    "amount": "",
+                    "unit": "適量"
+                }
+            ]
+        },
+        {
+            "cocktail_id": 83,
+            "cocktail_name": "クラシック・ドライ・マティーニ",
+            "cocktail_name_english": "Classic Dry Martini",
+            "base_name": "ジン",
+            "technique_name": "ステア",
+            "taste_name": "辛口",
+            "style_name": "ショート",
+            "alcohol": 40,
+            "top_name": "食前",
+            "glass_name": "カクテルグラス",
+            "type_name": "アルコール",
+            "cocktail_digest": "現在の辛口マティーニの元祖",
+            "cocktail_desc": "カクテルの王様マティーニは時代が進むに連れ辛口になったが、その辛口への変化のスタートと言えるべきレシピがこのクラシック・ドライ・マティーニ。現在のマティーニに比べるとドライ・ベルモットの割合が多く、飲みやすい仕上がりとなっている。",
+            "recipe_desc": "すべての材料をミキシンググラスでステアし、グラスに注ぐ。",
+            "recipes": [
+                {
+                    "ingredient_id": 1,
+                    "ingredient_name": "ジン",
+                    "amount": "45",
+                    "unit": "ml"
+                },
+                {
+                    "ingredient_id": 15,
+                    "ingredient_name": "ドライ・ベルモット",
+                    "amount": "15",
+                    "unit": "ml"
+                },
+                {
+                    "ingredient_id": 21,
+                    "ingredient_name": "オレンジ・ビターズ",
+                    "amount": "1",
+                    "unit": "dash"
+                }
+            ]
+        },
+        {
+            "cocktail_id": 86,
+            "cocktail_name": "キウイ・マティーニ",
+            "cocktail_name_english": "Kiwi Martini",
+            "base_name": "ジン",
+            "technique_name": "シェイク",
+            "taste_name": "中甘口",
+            "style_name": "ショート",
+            "alcohol": 23,
+            "top_name": "オール",
+            "glass_name": "カクテルグラス",
+            "type_name": "アルコール",
+            "cocktail_digest": "キウイの果実感とジンの抜群の組み合わせ",
+            "cocktail_desc": "ジンの辛さにキウイフルーツの甘みと酸味が抜群にマッチしたカクテル。飾り付けに鳥のキウイを見立てたキウイフルーツとレモンピールを飾り付けるとオシャレ。",
+            "recipe_desc": "シェーカーにすべての材料と氷を入れてシェイクし、グラスに注ぐ。",
+            "recipes": [
+                {
+                    "ingredient_id": 1,
+                    "ingredient_name": "ジン",
+                    "amount": "50",
+                    "unit": "ml"
+                },
+                {
+                    "ingredient_id": 81,
+                    "ingredient_name": "キウイフルーツ",
+                    "amount": "1/2",
+                    "unit": "個"
+                },
+                {
+                    "ingredient_id": 69,
+                    "ingredient_name": "シュガー・シロップ",
+                    "amount": "1",
+                    "unit": "tsp."
+                }
+            ]
+        },
+        {
+            "cocktail_id": 97,
+            "cocktail_name": "スモーキー・マティーニ",
+            "cocktail_name_english": "Smoky Martini",
+            "base_name": "ジン",
+            "technique_name": "ステア",
+            "taste_name": "辛口",
+            "style_name": "ショート",
+            "alcohol": 45,
+            "top_name": "食前",
+            "glass_name": "カクテルグラス",
+            "type_name": "アルコール",
+            "cocktail_digest": "ウイスキー香るマティーニのアレンジレシピ",
+            "cocktail_desc": "ドライ・ベルモットの代わりにスコッチ・ウイスキーを使用したマティーニの一つ。ジンとウイスキーが口の中で香る、辛口で度数も高いカクテル。普段のマティーニから少し変化を楽しみたいときに飲んでみると良い。",
+            "recipe_desc": "すべての材料をミキシンググラスでステアし、グラスに注ぐ。",
+            "recipes": [
+                {
+                    "ingredient_id": 1,
+                    "ingredient_name": "ジン",
+                    "amount": "45",
+                    "unit": "ml"
+                },
+                {
+                    "ingredient_id": 27,
+                    "ingredient_name": "スコッチ・ウイスキー",
+                    "amount": "15",
+                    "unit": "ml"
+                }
+            ]
+        },
+        {
+            "cocktail_id": 174,
+            "cocktail_name": "ストロベリー・マティーニ",
+            "cocktail_name_english": "Strawberry Martini",
+            "base_name": "ジン",
+            "technique_name": "シェイク",
+            "taste_name": "中甘口",
+            "style_name": "ショート",
+            "alcohol": 13,
+            "top_name": "オール",
+            "glass_name": "カクテルグラス",
+            "type_name": "アルコール",
+            "cocktail_digest": "旬のいちごをフレッシュに味わう",
+            "cocktail_desc": "生のいちごを使用したフレッシュカクテル。いちごの甘みと酸味の後からジン特有の香りと味をふわっと感じることができる。注ぐ際は潰した果実もグラスに入るようにすると、いちごの食感も楽しめる。",
+            "recipe_desc": "ボストンシェーカーにいちごを入れてマッシャーで潰す。その後、ジン、レモン・ジュース、氷を加えてシェイクし、グラスに注ぐ。好みでグラスにいちごを飾り付ける。",
+            "recipes": [
+                {
+                    "ingredient_id": 1,
+                    "ingredient_name": "ジン",
+                    "amount": "45",
+                    "unit": "ml"
+                },
+                {
+                    "ingredient_id": 91,
+                    "ingredient_name": "いちご",
+                    "amount": "3",
+                    "unit": "個"
+                },
+                {
+                    "ingredient_id": 49,
+                    "ingredient_name": "レモン・ジュース",
+                    "amount": "1",
+                    "unit": "tsp."
+                }
+            ]
+        },
+        {
+            "cocktail_id": 194,
+            "cocktail_name": "ダーティー・マティーニ",
+            "cocktail_name_english": "Dirty Martini",
+            "base_name": "ジン",
+            "technique_name": "シェイク",
+            "taste_name": "辛口",
+            "style_name": "ショート",
+            "alcohol": 43,
+            "top_name": "食前",
+            "glass_name": "カクテルグラス",
+            "type_name": "アルコール",
+            "cocktail_digest": "オリーブ好きのためのマティーニ",
+            "cocktail_desc": "オリーブが漬かっていた汁を利用した、オリーブの香りが前面に押し出されたマティーニ。塩味とオイル分があり、カクテルの中ではかなり特殊な味わい。オリーブの汁によって濁りがでていることから、ダーティーの名前がついている。",
+            "recipe_desc": "シェーカーにオリーブ以外の材料と氷を入れてよくシェイクし、グラスに注ぐ。最後にカクテル・ピンに指したオリーブをグラスに沈める。",
+            "recipes": [
+                {
+                    "ingredient_id": 64,
+                    "ingredient_name": "オリーブ",
+                    "amount": "2",
+                    "unit": "個"
+                },
+                {
+                    "ingredient_id": 1,
+                    "ingredient_name": "ジン",
+                    "amount": "60",
+                    "unit": "ml"
+                },
+                {
+                    "ingredient_id": 98,
+                    "ingredient_name": "オリーブ浸漬ジュース",
+                    "amount": "1",
+                    "unit": "tsp."
+                }
+            ]
+        },
+        {
+            "cocktail_id": 236,
+            "cocktail_name": "オペラ・マティーニ",
+            "cocktail_name_english": "Opera Martini",
+            "base_name": "ジン",
+            "technique_name": "シェイク",
+            "taste_name": "中口",
+            "style_name": "ショート",
+            "alcohol": 32,
+            "top_name": "食前",
+            "glass_name": "カクテルグラス",
+            "type_name": "アルコール",
+            "cocktail_digest": "華やかで多様な味わいの総合芸術",
+            "cocktail_desc": "ジンの辛味をデュボネの甘みとマラスキーノの香りで柔らかく仕上げた上品な味わいのマティーニ。デュボネによる赤みとレモンピールの色合いも美しい。色、味、香りあらゆる面から楽しむことができるカクテル。",
+            "recipe_desc": "シェーカーにレモンピール以外の材料と氷を入れてシェイクし、グラスに注ぐ。仕上げにレモンピールを絞り、グラスに浮かべる。",
+            "recipes": [
+                {
+                    "ingredient_id": 1,
+                    "ingredient_name": "ジン",
+                    "amount": "30",
+                    "unit": "ml"
+                },
+                {
+                    "ingredient_id": 99,
+                    "ingredient_name": "デュボネ",
+                    "amount": "20",
+                    "unit": "ml"
+                },
+                {
+                    "ingredient_id": 95,
+                    "ingredient_name": "マラスキーノ",
+                    "amount": "10",
+                    "unit": "ml"
+                },
+                {
+                    "ingredient_id": 65,
+                    "ingredient_name": "レモン・ピール",
+                    "amount": "",
+                    "unit": "適量"
+                }
+            ]
+        },
+        {
+            "cocktail_id": 261,
+            "cocktail_name": "ヴェスパー",
+            "cocktail_name_english": "Vesper",
+            "base_name": "ジン",
+            "technique_name": "シェイク",
+            "taste_name": "辛口",
+            "style_name": "ショート",
+            "alcohol": 43,
+            "top_name": "食前",
+            "glass_name": "カクテルグラス",
+            "type_name": "アルコール",
+            "cocktail_digest": "イケる味だ名前を考えよう",
+            "cocktail_desc": "別名ボンドマティーニとも呼ばれ、映画007カジノロワイヤルでジェームズ・ボンドがカジノでの勝負の際に頼んだ一品。ジンとウォッカの強い味わいながらもリレ・ブランの甘み、レモンピールの香りが豊かで上品にまとまっている。ボンドの恋人の名であり、ボンド曰く一度この味を知ったら他のものが飲めなくなるという。",
+            "recipe_desc": "シェーカーにレモンピール以外の材料と氷を入れてシェイクし、グラスに注ぐ。最後にレモンピールを添える。",
+            "recipes": [
+                {
+                    "ingredient_id": 113,
+                    "ingredient_name": "ゴードン・ジン",
+                    "amount": "90",
+                    "unit": "ml"
+                },
+                {
+                    "ingredient_id": 2,
+                    "ingredient_name": "ウォッカ",
+                    "amount": "30",
+                    "unit": "ml"
+                },
+                {
+                    "ingredient_id": 114,
+                    "ingredient_name": "リレ・ブラン",
+                    "amount": "15",
+                    "unit": "ml"
+                },
+                {
+                    "ingredient_id": 65,
+                    "ingredient_name": "レモン・ピール",
+                    "amount": "",
+                    "unit": "適量"
+                }
+            ]
+        }
+    ]
+}

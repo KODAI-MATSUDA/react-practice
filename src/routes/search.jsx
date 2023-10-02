@@ -22,6 +22,11 @@ function Search() {
         navigate('/');
     };
 
+    const call = () => {
+        sessionStorage.setItem('inputData', sessionData);
+        navigate('/call');
+    };
+
     return <>
     <div>
         <div>
@@ -33,6 +38,7 @@ function Search() {
                 placeholder="Enter your data" />
         </div>
             <button onClick={back}>back</button>
+            <button onClick={call}>call</button>
     </div>
     </>
 }

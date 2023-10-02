@@ -1,13 +1,12 @@
-import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Top from './routes/top'
 import Search from './routes/search'
+import Call from './routes/call'
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -23,6 +22,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Top />} />
         <Route path="/search" element={<Search />} />
+        <Route path="/call" element={<Call />} />
       </Routes>
       <div className="card">
       </div>
