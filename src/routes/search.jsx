@@ -7,19 +7,32 @@ function Search() {
     const [sessionData, setSessionData] = useState('');
     
     useEffect(() => {
-        // セッションストレージからデータを取得
         const data = sessionStorage.getItem('inputData');
         if (data) {
             setSessionData(data);
         }
     }, []);
+    
+    const handleInputChange = (e) => {
+        setSessionData(e.target.value);
+    };
+
+    const back = () => {
+        sessionStorage.setItem('inputData', sessionData);
+        navigate('/');
+    };
 
     return <>
     <div>
         <div>
-                <p>Data from sessionStorage: {sessionData}</p>
+            <input
+                id="sessionData"
+                type="text"
+                onChange={handleInputChange}
+                    defaultValue={sessionData}
+                placeholder="Enter your data" />
         </div>
-        <button onClick={() => navigate('/')}>back</button>
+            <button onClick={back}>back</button>
     </div>
     </>
 }
